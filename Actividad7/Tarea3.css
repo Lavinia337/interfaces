@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: 'Berkshire Swash';
+    background-color: #f8e6b5;
+}
+
+header {
+    background-color: #7B2C08;
+    color: #F8BD3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+header img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+header h2 {
+    font-size: 22px;
+}
+
+.contenedor_buscador {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contenedor_buscador input {
+    padding: 10px;
+    color: #7B2C08;
+    width: 230px;
+}
+
+.contenedor_buscador input:focus {
+    background-color: #F8BD3D;
+}
+
+.contenedor_buscador button {
+    background-color: #F8BD3D;
+    color: #7B2C08;
+    border: none;
+    padding: 8px 12px;
+}
+
+.material-symbols-outlined {
+    font-size: 22px;
+}
+
+nav {
+    background-color: #F8BD3D;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: #7B2C08;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 15px 30px;
+}
+
+main h2 {
+    background-color: #7B2C08;
+    width: 100%;
+    color: #F8BD3D;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.contenedor_galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px 10px;
+}
+
+.contenedor_galeria div {
+    background-color: #7B2C08;
+}
+
+.item_galeria {
+    background-color: #7B2C08;
+    color: #F8BD3D;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item_galeria img {
+    width: 100%;
+    height: 145%;
+    object-fit: contain;
+    background-color: white;
+}
+
+.item_galeria p {
+    color: #F8BD3D;
+    padding: 8px 4px;
+    font-size: 15px;
+}
+
+.item_galeria_detalles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.item_galeria_detalles button {
+    background-color: #F8BD3D;
+    color: #7B2C08;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 18px;
+}
+
+.item_galeria_detalles button:hover {
+    background-color: white;
+}
